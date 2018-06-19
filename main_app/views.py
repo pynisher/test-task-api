@@ -53,4 +53,5 @@ def decrypt(request):
 
 def index(request):
     return HttpResponse("""Hello.<br>API usage:<br>/encrypt/?text=text_to_encrypt&password=your_password
-    <br>/decrypt/?text=text_to_decrypt&password=your_password""")
+    <br>/decrypt/?text=text_to_decrypt&password=your_password
+    <br>Default text: 'Hello World'<br>Default password: '123'""")
